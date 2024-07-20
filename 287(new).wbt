@@ -1,0 +1,37 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/SimpleChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.18469323314844602 0.20338630562281737 0.9615208891720843 1.5136708408861215
+  position -0.03255832489714339 -3.827137542693137 1.7053550357946703
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+  floorTileSize 3 3
+  wallThickness 0.05
+  wallHeight 0.5
+}
+SimpleChair {
+  translation 1.694620003355775 1.7351400057469708 -0.0004902444458075861
+  rotation 0.0002517130020839529 0.0001441422023017626 0.9999999579317942 -2.094395343725359
+}
+Ball {
+  translation 1.5964790799768211 1.5211319965205703 0.8945412666593876
+  rotation -0.8643220524588568 0.5029387533586537 1.830896451194362e-06 0.03985685352900044
+  radius 0.3
+}
+E-puck {
+  translation 1.52 1.55 0.89
+}
